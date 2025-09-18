@@ -1,4 +1,4 @@
-# Mechanical Engineer Portfolio
+# Engineering Portfolio
 
 A modern, responsive portfolio website built with React for mechanical engineers.
 
