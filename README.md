@@ -113,25 +113,3 @@ To deploy your portfolio:
 1. Build the project: `npm run build`
 2. Upload the `build` folder to your hosting service
 3. Your portfolio will be live!
-
-
-
-erDiagram
-    SEASONS ||--o{ RACES : "has"
-    CIRCUITS ||--o{ RACES : "hosts"
-    RACES ||--o{ RESULTS : "produces"
-    RACES ||--o{ QUALIFYING : "includes"
-    RACES ||--o{ LAP_TIMES : "contains"
-    RACES ||--o{ PIT_STOPS : "contains"
-    RACES ||--o{ DRIVER_STANDINGS : "summarizes"
-    RACES ||--o{ CONSTRUCTOR_STANDINGS : "summarizes"
-    RESULTS }o--|| DRIVERS : "belongs to"
-    RESULTS }o--|| CONSTRUCTORS : "for"
-    RESULTS }o--|| STATUS : "ends with"
-    QUALIFYING }o--|| DRIVERS : "for"
-    QUALIFYING }o--|| CONSTRUCTORS : "by"
-    LAP_TIMES }o--|| DRIVERS : "for"
-    PIT_STOPS }o--|| DRIVERS : "for"
-    DRIVER_STANDINGS }o--|| DRIVERS : "of"
-    CONSTRUCTOR_STANDINGS }o--|| CONSTRUCTORS : "of"
-
