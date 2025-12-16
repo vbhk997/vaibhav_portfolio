@@ -233,7 +233,7 @@ export const portfolioData = {
       },
       {
         id: 7,
-        title: "Capstone Project - F1 Race predictor and championship simulator",
+        title: "F1 Race predictor and championship simulator",
         description: "Building an F1 race prediction and championship simulation platform that combines PostgreSQL, raw SQL, and machine learning. The system integrates Monte Carlo simulations with a web app where users can manage data, run predictions, and analyze team and driver performance.",
         icon: "🔧",
         technologies: ["Machine Learning", "PostgreSQL", "Database Design", "Monte Carlo Simulation", "Web Development"],
